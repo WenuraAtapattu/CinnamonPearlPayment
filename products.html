@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--google icons-=-==============-->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Cinnamon Pearl</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!--==NAVIGATION=============================-->
+   <header>
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <section class="logo">
+            <a href="./index.html"><img src="./im/cinnamon-pearl.png" alt="The cinnamon-pearl   logo"></a>
+            
+        </section>
+        <ul class="links">
+          <li>
+             <sectiion class="search-container">
+               <input type="text" class="search-bar" placeholder="Search...">
+               <button class="search-button">Search</button>
+             </sectiion>
+          </li>
+          <li class="active"><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About us</a></li>
+          <div class="dropdown">
+            <li><a href="./product page.html"> products</a></li>
+            <div class="dropdown-content">
+              <a href="./dairy.html">dairy products</a>
+              <a href="./vegetables.html">vegetables</a>
+              <a href="./cosmetic.html">cosmatics</a>
+            </div>
+          </div>
+          <li><a href="./order.html">Order</a></li>
+          <li><a href="./contact.html">Contact us</a></li>
+          <li><a href="./login.html">Loyalty Registrstions</a></li>
+          <li>
+             <a href="#" class="cart-icon">
+                   <span class="material-symbols-outlined">
+                     shopping_cart
+                   </span>
+             </a>
+          </li>
+            
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <section class="line"></section>
+            <section class="line"></section>
+            <section class="line"></section>
+        </label>
+    </nav>
+
+    <section class="home">
+      <section class="content">
+          <h1 class="animation">Products</h1>
+          <h3 class="animation">Fresh Finds, Daily Deals!</h3>
+      </section>
+    </section>
+
+    <div class="button-section">
+      <div class="button-container">
+        <Button>Fruits</Button>
+        <Button>Vegetables</Button>
+        <Button>Meat & Fish</Button>
+        <Button>Dairy</Button>
+        <Button>Baking</Button>
+      </div>
+    </div>
+
+    <!-- Fruits Section -->
+    <div class="section-name">
+      <h1>Fruits</h1>
+    </div>
+
+    <div class="fruits-section">
+      <div class="product-card-section">
+        <div class="products-card" id="products-card">
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/apple.jpg" alt="apple">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Apples</h2>
+              <div class="price" id="price">200 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"><span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/banana.jpg" alt="banana">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Banana</h2>
+              <div class="price" id="price">150 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"><span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/watermelon.webp" alt="watermelon">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Watermelon</h2>
+              <div class="price" id="price">150 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"><span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/oranges.webp" alt="orange">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Oranges</h2>
+              <div class="price" id="price">350 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"><span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/strawberry.webp" alt="strawberry">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Strawberries</h2>
+              <div class="price" id="price">350 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"><span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/R.webp" alt="Lemons">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Lemons</h2>
+              <div class="price" id="price">350 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"><span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+    <!-- Vegetables Section -->
+
+    <div class="section-name">
+      <h1>Vegetables</h1>
+    </div>
+    <div class="vegetables-section">
+      <div class="product-card-section">
+        <div class="products-card" id="products-card">
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/carrot.jpg" alt="carrots">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Carrot</h2>
+              <div class="price" id="price">200 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"><span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/cauliflower_300x.avif" alt="cauliflower">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Cauliflower</h2>
+              <div class="price" id="price">150 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"><span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/pumpkin_300x.avif" alt="pumpkin">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Pumpkin</h2>
+              <div class="price" id="price">150 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"><span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/bitter gourd.jpg" alt="gourd">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Bitter Gourd</h2>
+              <div class="price" id="price">350 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"><span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/broccoli_300x.webp" alt="brocolli">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Brocolli</h2>
+              <div class="price" id="price">350 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1" min="0"><span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/garkic.jpg" alt="garlic">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Garlic</h2>
+              <div class="price" id="price">350 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1" min="0"><span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Meat and Seafood Section -->
+    <div class="section-name">
+      <h1>Meat and Seafood</h1>
+    </div>
+    <div class="meat-fish-section">
+
+      <div class="product-card-section">
+        <div class="products-card" id="products-card">
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/chicken.webp" alt="chicken">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Chicken</h2>
+              <div class="price" id="price">2000 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"> <span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/salmon.webp" alt="salmon">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Salmon</h2>
+              <div class="price" id="price">1500LKR</div>
+              <div class="quantity" id="quantity"><input type="number" value="1"> <span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/pork.webp" alt="pork">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Pork</h2>
+              <div class="price" id="price">3350 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"> <span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/prawns.webp" alt="prawns">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Prawns</h2>
+              <div class="price" id="price">3150LKR</div>
+              <div class="quantity" id="quantity"><input type="number" value="1"> <span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/tuna.webp" alt="tuna">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Tuna</h2>
+              <div class="price" id="price">1800 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"> <span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/OIP.webp" alt="beef">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Beef</h2>
+              <div class="price" id="price">3500 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"> <span>Kg</span></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dairy Product Section -->
+
+    <div class="section-name">
+      <h1>Dairy Products</h1>
+    </div>
+    <div class="dairy-section">
+
+      <div class="product-card-section">
+        <div class="products-card" id="products-card">
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/butter.webp" alt="butter">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Butter</h2>
+              <div class="price" id="price">400 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/baby milk.webp" alt="baby-milk">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Baby Milk</h2>
+              <div class="price" id="price">1500LKR</div>
+              <div class="quantity" id="quantity"><input type="number" value="1"></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/d3.webp" alt="ice-cream">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Ice Cream</h2> <span> 1L</span>
+              <div class="price" id="price">1200 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/yoghurtr.webp" alt="yoghurt">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Yoghurt</h2> <span>80 Ml</span>
+              <div class="price" id="price">80 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/ratti.webp" alt="milk-powder">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Milk Powder</h2>
+              <div class="price" id="price">1800 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/goat milk.webp" alt="goat-milk">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Goat Milk</h2>
+              <div class="price" id="price">350 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Baking and Cooking Section -->
+
+    <div class="section-name">
+      <h1>Baking and Cooking</h1>
+    </div>
+    <div class="baking-cooking-section">
+      <div class="product-card-section">
+        <div class="products-card" id="products-card">
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/salt.webp" alt="salt">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Salt</h2>
+              <div class="price" id="price">300 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/olive.webp" alt="olive-oil">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Olive Oil</h2>
+              <div class="price" id="price">1500LKR</div>
+              <div class="quantity" id="quantity"><input type="number" value="1"></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/pepper.webp" alt="Black-Pepper">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Black Pepper</h2>
+              <div class="price" id="price">750 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/sugar.webp" alt="sugar">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Sugar</h2> <span>1 Kg</span>
+              <div class="price" id="price">425 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/flour.webp" alt="flour">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Flour</h2>
+              <div class="price" id="price">380 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="product-image">
+              <img src="./im/bakingpowder.webp" alt="baking-powder">
+            </div>
+            <div class="product-text">
+              <h2 id="name">Baking Powder</h2>
+              <div class="price" id="price">650 <span>LKR</span></div>
+              <div class="quantity" id="quantity"><input type="number" value="1"></div>
+            </div>
+            <div class="buttons">
+              <Button class="add-to-cart">Add to Cart</Button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="cart-section">
+      <table id="cart-table">
+        <caption>Cart</caption>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+    <div class="proceed-buttons">
+      <center><button id="proceed-to-pay">Proceed to Pay</button></center>
+      
+    </div>
+
+
+    
+</body>
+<script src="./productsScript.js"></script>
+</html>
